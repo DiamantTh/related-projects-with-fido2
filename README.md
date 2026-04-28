@@ -16,8 +16,10 @@ Die Trennung zwischen `MFA/2FA` und `Passwordless` ist absichtlich strikt:
 - [CMS](categories/cms.md)
 - [Code-Hosting und DevOps](categories/code-hosting-devops.md)
 - [Community und Foren](categories/community-forums.md)
+- [DNS- und Infrastruktur-Panels](categories/dns-infra-panels.md)
 - [Fediverse und soziale Netzwerke](categories/fediverse-social.md)
 - [Identity und Access Management](categories/identity-access.md)
+- [Server- und Hosting-Panels](categories/server-hosting-panels.md)
 - [Ticketsysteme und Helpdesk](categories/ticketing-helpdesk.md)
 - [Wikis und Wissensmanagement](categories/wikis-knowledge.md)
 
@@ -35,7 +37,11 @@ Details: [categories/cms.md](categories/cms.md)
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
 | --- | --- | --- | --- | --- | --- |
+| Drupal | PHP | Modul | Kein Nachweis | Ja | [Site](https://www.drupal.org/) [Code](https://git.drupalcode.org/project/drupal) [PW](https://www.drupal.org/project/wa) |
+| Ghost | JavaScript | Kein Nachweis | Kein Nachweis | Kein Nachweis | [Site](https://ghost.org/) [Code](https://github.com/TryGhost/Ghost) [Docs](https://docs.ghost.org/) |
+| Grav | PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | [Site](https://getgrav.org/) [Code](https://github.com/getgrav/grav) |
 | Joomla | PHP | Nativ | Ja | Ja | [Site](https://www.joomla.org/) [Code](https://github.com/joomla/joomla-cms) [PW](https://docs.joomla.org/WebAuthn_Passwordless_Login/en) [MFA](https://docs.joomla.org/J4.x:Multi-factor_Authentication) |
+| TYPO3 | PHP | Erweiterung | Kein Nachweis | Ja | [Site](https://typo3.org/) [Code](https://github.com/TYPO3/typo3) [BE](https://docs.typo3.org/p/netresearch/nr-passkeys-be/main/en-us/) [FE](https://docs.typo3.org/p/netresearch/nr-passkeys-fe/main/en-us) |
 | WordPress | PHP | Plugin | Ja | Ja | [Site](https://wordpress.com/de/) [Code](https://github.com/WordPress/WordPress) [2FA](https://de.wordpress.org/plugins/two-factor-provider-webauthn/) [PW](https://de.wordpress.org/plugins/wp-webauthn/) |
 
 ## Code-Hosting und DevOps
@@ -59,6 +65,15 @@ Details: [categories/community-forums.md](categories/community-forums.md)
 | NodeBB | JavaScript | Off. Plugin | Ja | Kein Nachweis | [Site](https://nodebb.org/) [Code](https://github.com/NodeBB/NodeBB) [Blog](https://nodebb.org/blog/fido2-webauthn) [Plugin](https://www.npmjs.com/package/nodebb-plugin-2factor) |
 | WoltLab Suite Core / WCF | PHP | Kommerzielles Plugin | Kein Nachweis | Ja | [Site](https://www.woltlab.com/) [Code](https://github.com/WoltLab/WCF) [Plugin](https://www.woltlab.com/pluginstore/file/3101-webauthn-login/) [Issue](https://github.com/WoltLab/WCF/issues/6440) |
 
+## DNS- und Infrastruktur-Panels
+
+Details: [categories/dns-infra-panels.md](categories/dns-infra-panels.md)
+
+| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
+| --- | --- | --- | --- | --- | --- |
+| Poweradmin | PHP | Nativ | Nein (nur TOTP) | Kein Nachweis | [Site](https://www.poweradmin.org/) [Code](https://github.com/poweradmin/poweradmin) [Auth](https://github.com/poweradmin/poweradmin) |
+| PowerDNS-Admin | Python | Nativ | Nein (nur TOTP) | Kein Nachweis | [Site](https://powerdnsadmin.org) [Code](https://github.com/PowerDNS-Admin/PowerDNS-Admin) [Auth](https://github.com/PowerDNS-Admin/PowerDNS-Admin) |
+
 ## Fediverse und soziale Netzwerke
 
 Details: [categories/fediverse-social.md](categories/fediverse-social.md)
@@ -76,6 +91,20 @@ Details: [categories/identity-access.md](categories/identity-access.md)
 | --- | --- | --- | --- | --- | --- |
 | authentik | Python | Nativ | Ja | Ja | [Site](https://goauthentik.io/) [Code](https://github.com/goauthentik/authentik) [WebAuthn](https://docs.goauthentik.io/add-secure-apps/flows-stages/stages/authenticator_webauthn/) [Login](https://docs.goauthentik.io/add-secure-apps/flows-stages/stages/identification/) |
 | Keycloak | Java | Nativ | Ja | Ja | [Site](https://www.keycloak.org/) [Code](https://github.com/keycloak/keycloak) [Doku](https://www.keycloak.org/docs/latest/server_admin/) |
+
+## Server- und Hosting-Panels
+
+Details: [categories/server-hosting-panels.md](categories/server-hosting-panels.md)
+
+| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
+| --- | --- | --- | --- | --- | --- |
+| Froxlor | PHP | Repo-Spur | Unklar | Kein Nachweis | [Site](https://froxlor.org/) [Code](https://github.com/Froxlor/Froxlor) [2FA-Datei](https://github.com/Froxlor/Froxlor/blob/main/2fa.php) [Docs](https://docs.froxlor.org/) |
+| HestiaCP | Shell/PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | [Site](https://hestiacp.com/) [Code](https://github.com/hestiacp/hestiacp) |
+| ISPConfig | PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | [Site](https://www.ispconfig.org/) [Docs](https://www.ispconfig.org/documentation/) |
+| Portainer CE | TypeScript/Go | Kein Nachweis | Kein Nachweis | Kein Nachweis | [Site](https://www.portainer.io/) [Code](https://github.com/portainer/portainer) [Docs](https://docs.portainer.io/) |
+| Proxmox VE | Perl/JavaScript | Nativ | Ja | Kein Nachweis | [Site](https://www.proxmox.com/en/proxmox-virtual-environment/overview) [Code](https://github.com/proxmox) [WebAuthn](https://pve.proxmox.com/pve-docs/chapter-pveum.html) |
+| Virtualmin GPL | Perl | Kein Nachweis | Kein Nachweis | Kein Nachweis | [Site](https://www.virtualmin.com/) [Info](https://webmin.com/virtualmin/) |
+| Webmin | Perl | Nativ | Nein (nur TOTP) | Kein Nachweis | [Site](https://webmin.com/) [Code](https://github.com/webmin/webmin) [2FA](https://webmin.com/docs/modules/webmin-configuration) |
 
 ## Ticketsysteme und Helpdesk
 
@@ -98,6 +127,7 @@ Details: [categories/wikis-knowledge.md](categories/wikis-knowledge.md)
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
 | --- | --- | --- | --- | --- | --- |
 | MediaWiki | PHP | Off. Erw. | Ja | Experimentell | [Site](https://www.mediawiki.org/) [Code](https://gerrit.wikimedia.org/g/mediawiki/core) [OATHAuth](https://www.mediawiki.org/wiki/Extension:OATHAuth) |
+
 ## Hinweise zur Einordnung
 
 - `Nativ` bedeutet: Die Funktion ist direkt im Projekt bzw. in dessen offizieller Dokumentation beschrieben.
@@ -105,6 +135,10 @@ Details: [categories/wikis-knowledge.md](categories/wikis-knowledge.md)
 - `Plugins` bedeutet: Die Unterstuetzung ist vorhanden, aber nicht Bestandteil des Kernprojekts.
 - `SSO/IdP` bedeutet: Die Anmeldung kann ueber ein externes Identitaetssystem laufen; FIDO2/Passkeys haengen dann vom angebundenen IdP ab, nicht vom Projekt selbst.
 - `Plugin/SSO` bedeutet: Die Funktion kommt ueber ein offizielles oder etabliertes Zusatzmodul und haengt oft ebenfalls am externen IdP.
+- `Kein Nachweis` bedeutet: In den geprueften offiziellen Quellen habe ich fuer WebAuthn/FIDO2/Passkeys keinen belastbaren Beleg gefunden.
+- `Nein (nur TOTP)` bedeutet: Offiziell belegt ist klassische 2FA, aber nicht WebAuthn/FIDO2/Passkeys.
+- `Unklar` bedeutet: Im Projekt gibt es eine technische Spur, aber noch keinen sauberen belastbaren Nachweis, wie weit WebAuthn/FIDO2 wirklich getragen wird.
+- `Repo-Spur` bedeutet: Im offiziellen Quellcode ist ein deutlicher Auth-/2FA-Hinweis sichtbar, aber die offizielle Doku reicht fuer eine scharfe Einordnung noch nicht aus.
 - `Impl.` ist die Kurzform fuer `Implementierung`.
 - `Off. App` und `Off. Erw.` sind Kurzformen fuer `Offizielle App` und `Offizielle Erweiterung`.
 - `*` markiert eine quellengestuetzte Inferenz statt einer direkten Produktdokumentation. Aktuell betrifft das `Forgejo`: Codeberg ist Forgejo-basiert und dokumentiert WebAuthn-2FA; zusaetzlich ist Forgejo ein Hard-Fork von Gitea.
