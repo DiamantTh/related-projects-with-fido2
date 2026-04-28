@@ -4,8 +4,8 @@ Content-Management-Systeme mit nativer oder plugin-basierter Unterstuetzung fuer
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
 | --- | --- | --- | --- | --- | --- |
-| WordPress | PHP | Plugin | Ja | Ja | [Site](https://wordpress.com/de/) [Code](https://github.com/WordPress/WordPress) [2FA](https://de.wordpress.org/plugins/two-factor-provider-webauthn/) [PW](https://de.wordpress.org/plugins/wp-webauthn/) |
 | Joomla | PHP | Nativ | Ja | Ja | [Site](https://www.joomla.org/) [Code](https://github.com/joomla/joomla-cms) [PW](https://docs.joomla.org/WebAuthn_Passwordless_Login/en) [MFA](https://docs.joomla.org/J4.x:Multi-factor_Authentication) |
+| WordPress | PHP | Plugin | Ja | Ja | [Site](https://wordpress.com/de/) [Code](https://github.com/WordPress/WordPress) [2FA](https://de.wordpress.org/plugins/two-factor-provider-webauthn/) [PW](https://de.wordpress.org/plugins/wp-webauthn/) |
 
 ---
 

@@ -10,33 +10,14 @@ Die Trennung zwischen `MFA/2FA` und `Passwordless` ist absichtlich strikt:
 
 ## Kategorien
 
+- [Cloud und Zusammenarbeit](categories/cloud-collaboration.md)
 - [CMS](categories/cms.md)
 - [Code-Hosting und DevOps](categories/code-hosting-devops.md)
-- [Cloud und Zusammenarbeit](categories/cloud-collaboration.md)
-- [Identity und Access Management](categories/identity-access.md)
+- [Community und Foren](categories/community-forums.md)
 - [Fediverse und soziale Netzwerke](categories/fediverse-social.md)
+- [Identity und Access Management](categories/identity-access.md)
 - [Ticketsysteme und Helpdesk](categories/ticketing-helpdesk.md)
 - [Wikis und Wissensmanagement](categories/wikis-knowledge.md)
-- [Community und Foren](categories/community-forums.md)
-
-## CMS
-
-Details: [categories/cms.md](categories/cms.md)
-
-| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
-| --- | --- | --- | --- | --- | --- |
-| WordPress | PHP | Plugin | Ja | Ja | [Site](https://wordpress.com/de/) [Code](https://github.com/WordPress/WordPress) [2FA](https://de.wordpress.org/plugins/two-factor-provider-webauthn/) [PW](https://de.wordpress.org/plugins/wp-webauthn/) |
-| Joomla | PHP | Nativ | Ja | Ja | [Site](https://www.joomla.org/) [Code](https://github.com/joomla/joomla-cms) [PW](https://docs.joomla.org/WebAuthn_Passwordless_Login/en) [MFA](https://docs.joomla.org/J4.x:Multi-factor_Authentication) |
-
-## Code-Hosting und DevOps
-
-Details: [categories/code-hosting-devops.md](categories/code-hosting-devops.md)
-
-| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
-| --- | --- | --- | --- | --- | --- |
-| Gitea | Go | Nativ | Ja | Kein Nachweis | [Site](https://about.gitea.com/) [Code](https://github.com/go-gitea/gitea) [Quelle](https://docs.gitea.com/1.23/usage/multi-factor-authentication) |
-| Forgejo | Go | Nativ* | Ja* | Kein Nachweis | [Site](https://forgejo.org/) [Info](https://docs.codeberg.org/getting-started/what-is-codeberg/) [2FA](https://docs.codeberg.org/security/2fa/) |
-| GitLab | Ruby | Nativ | Ja | Ja | [Site](https://about.gitlab.com/) [Code](https://gitlab.com/gitlab-org/gitlab) [PW](https://docs.gitlab.com/auth/passkeys/) [MFA](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) |
 
 ## Cloud und Zusammenarbeit
 
@@ -45,6 +26,44 @@ Details: [categories/cloud-collaboration.md](categories/cloud-collaboration.md)
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
 | --- | --- | --- | --- | --- | --- |
 | Nextcloud | PHP | Off. App | Ja | Ja | [Site](https://nextcloud.com/) [Code](https://github.com/nextcloud/server) [2FA-App](https://apps.nextcloud.com/apps/twofactor_webauthn) [PW-Issue](https://github.com/nextcloud/server/issues/51137) [MFA-Hinweis](https://github.com/nextcloud/twofactor_webauthn/issues/475) |
+
+## CMS
+
+Details: [categories/cms.md](categories/cms.md)
+
+| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
+| --- | --- | --- | --- | --- | --- |
+| Joomla | PHP | Nativ | Ja | Ja | [Site](https://www.joomla.org/) [Code](https://github.com/joomla/joomla-cms) [PW](https://docs.joomla.org/WebAuthn_Passwordless_Login/en) [MFA](https://docs.joomla.org/J4.x:Multi-factor_Authentication) |
+| WordPress | PHP | Plugin | Ja | Ja | [Site](https://wordpress.com/de/) [Code](https://github.com/WordPress/WordPress) [2FA](https://de.wordpress.org/plugins/two-factor-provider-webauthn/) [PW](https://de.wordpress.org/plugins/wp-webauthn/) |
+
+## Code-Hosting und DevOps
+
+Details: [categories/code-hosting-devops.md](categories/code-hosting-devops.md)
+
+| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
+| --- | --- | --- | --- | --- | --- |
+| Forgejo | Go | Nativ* | Ja* | Kein Nachweis | [Site](https://forgejo.org/) [Info](https://docs.codeberg.org/getting-started/what-is-codeberg/) [2FA](https://docs.codeberg.org/security/2fa/) |
+| Gitea | Go | Nativ | Ja | Kein Nachweis | [Site](https://about.gitea.com/) [Code](https://github.com/go-gitea/gitea) [Quelle](https://docs.gitea.com/1.23/usage/multi-factor-authentication) |
+| GitLab | Ruby | Nativ | Ja | Ja | [Site](https://about.gitlab.com/) [Code](https://gitlab.com/gitlab-org/gitlab) [PW](https://docs.gitlab.com/auth/passkeys/) [MFA](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) |
+
+## Community und Foren
+
+Details: [categories/community-forums.md](categories/community-forums.md)
+
+| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
+| --- | --- | --- | --- | --- | --- |
+| Discourse | Ruby | Nativ | Ja | Ja | [Site](https://www.discourse.org/) [Code](https://github.com/discourse/discourse) [PW](https://meta.discourse.org/t/passwordless-login-using-passkeys/285589) [MFA](https://meta.discourse.org/t/locked-out-of-a-discourse-forum-due-to-passkey-bug/362510/8?tl=en) |
+| Flarum | PHP | Plugin | Kein Nachweis | Ja | [Site](https://flarum.org/) [Code](https://github.com/flarum/framework) [PW](https://flarum.org/extension/hikarilan/flarum-passkey-login) [Thread](https://discuss.flarum.org/d/33682-passkey-login) |
+| NodeBB | JavaScript | Off. Plugin | Ja | Kein Nachweis | [Site](https://nodebb.org/) [Code](https://github.com/NodeBB/NodeBB) [Blog](https://nodebb.org/blog/fido2-webauthn) [Plugin](https://www.npmjs.com/package/nodebb-plugin-2factor) |
+| WoltLab Suite Core / WCF | PHP | Kommerzielles Plugin | Kein Nachweis | Ja | [Site](https://www.woltlab.com/) [Code](https://github.com/WoltLab/WCF) [Plugin](https://www.woltlab.com/pluginstore/file/3101-webauthn-login/) [Issue](https://github.com/WoltLab/WCF/issues/6440) |
+
+## Fediverse und soziale Netzwerke
+
+Details: [categories/fediverse-social.md](categories/fediverse-social.md)
+
+| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
+| --- | --- | --- | --- | --- | --- |
+| Mastodon | Ruby | Nativ | Ja | Kein Nachweis | [Site](https://joinmastodon.org/) [Code](https://github.com/mastodon/mastodon) [Issue](https://github.com/mastodon/mastodon/issues/16693) |
 
 ## Identity und Access Management
 
@@ -55,27 +74,19 @@ Details: [categories/identity-access.md](categories/identity-access.md)
 | authentik | Python | Nativ | Ja | Ja | [Site](https://goauthentik.io/) [Code](https://github.com/goauthentik/authentik) [WebAuthn](https://docs.goauthentik.io/add-secure-apps/flows-stages/stages/authenticator_webauthn/) [Login](https://docs.goauthentik.io/add-secure-apps/flows-stages/stages/identification/) |
 | Keycloak | Java | Nativ | Ja | Ja | [Site](https://www.keycloak.org/) [Code](https://github.com/keycloak/keycloak) [Doku](https://www.keycloak.org/docs/latest/server_admin/) |
 
-## Fediverse und soziale Netzwerke
-
-Details: [categories/fediverse-social.md](categories/fediverse-social.md)
-
-| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
-| --- | --- | --- | --- | --- | --- |
-| Mastodon | Ruby | Nativ | Ja | Kein Nachweis | [Site](https://joinmastodon.org/) [Code](https://github.com/mastodon/mastodon) [Issue](https://github.com/mastodon/mastodon/issues/16693) |
-
 ## Ticketsysteme und Helpdesk
 
 Details: [categories/ticketing-helpdesk.md](categories/ticketing-helpdesk.md)
 
 | Projekt | Sprache | Implementierung | MFA/2FA | Passwordless | Links |
 | --- | --- | --- | --- | --- | --- |
-| Znuny | Perl | Eingebautes SAML-SSO | Kein nativer Nachweis | Indirekt via SAML-IdP | [Site](https://www.znuny.com/) [Code](https://github.com/znuny/Znuny) [SAML](https://www.znuny.com/blog/znuny-built-in-saml-authentication) |
-| Zammad | Ruby | Kerberos-SSO | Kein nativer Nachweis | Indirekt via Kerberos-SSO | [Site](https://zammad.com/) [Code](https://github.com/zammad/zammad) [SSO](https://docs.zammad.org/en/latest/appendix/single-sign-on.html) |
-| GLPI | PHP | Offizielle OAuth-/SAML-Plugins | Kein nativer Nachweis | Indirekt via OAuth SSO oder SAML | [Site](https://glpi-project.org/) [Code](https://github.com/glpi-project/glpi) [Core-Auth](https://help.glpi-project.org/documentation/modules/configuration/authentication) [OAuth](https://help.glpi-project.org/doc-plugins/oauthsso) [SAML](https://help.glpi-project.org/doc-plugins/plugins-glpi/saml) |
 | FreeScout | PHP | Offizielles SAML-Modul | Kein nativer Nachweis | Indirekt via offiziellem SAML-Modul | [Site](https://freescout.net/) [Code](https://github.com/freescout-help-desk/freescout) [Module](https://github.com/freescout-help-desk/freescout/wiki/FreeScout-Modules) [SAML](https://freescout.net/module/saml/) [Git-Issue](https://github.com/freescout-help-desk/freescout/issues) |
+| GLPI | PHP | Offizielle OAuth-/SAML-Plugins | Kein nativer Nachweis | Indirekt via OAuth SSO oder SAML | [Site](https://glpi-project.org/) [Code](https://github.com/glpi-project/glpi) [Core-Auth](https://help.glpi-project.org/documentation/modules/configuration/authentication) [OAuth](https://help.glpi-project.org/doc-plugins/oauthsso) [SAML](https://help.glpi-project.org/doc-plugins/plugins-glpi/saml) |
 | osTicket | PHP | Klassische Auth / Plugins | Kein Nachweis | Kein Nachweis | [Site](https://osticket.com/) [Code](https://github.com/osTicket/osTicket) [Docs](https://docs.osticket.com/) [Plugins](https://github.com/osTicket/osTicket-plugins) |
-| Request Tracker (RT) | Perl | Externe Webserver-Auth | Kein nativer Nachweis | Indirekt ueber externen Webserver/Auth-Stack | [Site](https://bestpractical.com/request-tracker) [Code](https://github.com/bestpractical/rt) [Auth](https://docs.bestpractical.com/rt/5.0.9/authentication.html) |
 | OTOBO | Perl | Klassische Auth | Kein Nachweis | Kein Nachweis | [Site](https://otobo.de/en/) [Code](https://github.com/RotherOSS/otobo) [Auth](https://doc.otobo.org/manual/developer/10.1/en/content/how-to-extend-otobo/otobo-module-layers/auth-sync.html) |
+| Request Tracker (RT) | Perl | Externe Webserver-Auth | Kein nativer Nachweis | Indirekt ueber externen Webserver/Auth-Stack | [Site](https://bestpractical.com/request-tracker) [Code](https://github.com/bestpractical/rt) [Auth](https://docs.bestpractical.com/rt/5.0.9/authentication.html) |
+| Zammad | Ruby | Kerberos-SSO | Kein nativer Nachweis | Indirekt via Kerberos-SSO | [Site](https://zammad.com/) [Code](https://github.com/zammad/zammad) [SSO](https://docs.zammad.org/en/latest/appendix/single-sign-on.html) |
+| Znuny | Perl | Eingebautes SAML-SSO | Kein nativer Nachweis | Indirekt via SAML-IdP | [Site](https://www.znuny.com/) [Code](https://github.com/znuny/Znuny) [SAML](https://www.znuny.com/blog/znuny-built-in-saml-authentication) |
 
 ## Wikis und Wissensmanagement
 
@@ -84,15 +95,6 @@ Details: [categories/wikis-knowledge.md](categories/wikis-knowledge.md)
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
 | --- | --- | --- | --- | --- | --- |
 | MediaWiki | PHP | Off. Erw. | Ja | Experimentell | [Site](https://www.mediawiki.org/) [Code](https://gerrit.wikimedia.org/g/mediawiki/core) [OATHAuth](https://www.mediawiki.org/wiki/Extension:OATHAuth) |
-
-## Community und Foren
-
-Details: [categories/community-forums.md](categories/community-forums.md)
-
-| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
-| --- | --- | --- | --- | --- | --- |
-| Discourse | Ruby | Nativ | Ja | Ja | [Site](https://www.discourse.org/) [Code](https://github.com/discourse/discourse) [PW](https://meta.discourse.org/t/passwordless-login-using-passkeys/285589) [MFA](https://meta.discourse.org/t/locked-out-of-a-discourse-forum-due-to-passkey-bug/362510/8?tl=en) |
-
 ## Hinweise zur Einordnung
 
 - `Nativ` bedeutet: Die Funktion ist direkt im Projekt bzw. in dessen offizieller Dokumentation beschrieben.
@@ -110,9 +112,9 @@ Details: [categories/community-forums.md](categories/community-forums.md)
 ## Offene und negative Faelle
 
 - `Misskey` nehme ich noch nicht in die Haupttabellen auf. Fuer eine belastbare Primärquelle zu WebAuthn/Passkeys habe ich in den offiziellen Misskey-Dokumenten bzw. im offiziellen Projektkontext noch nichts Eindeutiges gefunden.
-- `phpBB` hat in der verlinkten Diskussion nur einen Verweis auf eine Erweiterung mit `U2F` und `OTP`; ein belastbarer WebAuthn-Nachweis liegt damit fuer mich noch nicht vor: https://www.phpbb.de/community/viewtopic.php?t=246177
 - `MyBB` dokumentiert 2FA allgemein und empfiehlt `U2F` bzw. `TOTP`, aber ich habe auf Basis der offiziellen Doku und des verlinkten Plugins noch keinen belastbaren WebAuthn-Nachweis: https://docs.mybb.com/1.8/administration/security/protection/ und https://www.mybb.de/erweiterungen/18x/plugins-sicherheit/my2fa/
-- `WoltLab Suite Core / WCF` fuehre ich nicht in den Haupttabellen. Aktuell sehe ich ein offenes Ticket zur nativen Umsetzung und ausserhalb davon vor allem ein separates Plugin, nicht belastbar als Core-Support: https://github.com/WoltLab/WCF/issues/6440 und https://www.woltlab.com/pluginstore/file/3101-webauthn-login/
+- `phpBB` hat in der verlinkten Diskussion nur einen Verweis auf eine Erweiterung mit `U2F` und `OTP`; ein belastbarer WebAuthn-Nachweis liegt damit fuer mich noch nicht vor: https://www.phpbb.de/community/viewtopic.php?t=246177
+
 ## Lizenz
 
 Die Inhalte dieses Repos stehen unter `Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)`.
