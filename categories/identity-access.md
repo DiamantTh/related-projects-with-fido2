@@ -1,5 +1,7 @@
 # Identity und Access Management
 
+Lizenz dieser Seite: [CC BY-SA 4.0](../LICENSE.md)
+
 Identity-Provider, SSO- und Access-Management-Projekte mit FIDO2-, WebAuthn- oder Passkey-Support.
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |

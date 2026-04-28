@@ -1,5 +1,7 @@
 # Wikis und Wissensmanagement
 
+Lizenz dieser Seite: [CC BY-SA 4.0](../LICENSE.md)
+
 Wiki- und Wissensplattformen mit FIDO2, WebAuthn oder Passkey-Unterstuetzung, nativ oder per offizieller Erweiterung.
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |

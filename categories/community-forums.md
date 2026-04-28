@@ -1,5 +1,7 @@
 # Community und Foren
 
+Lizenz dieser Seite: [CC BY-SA 4.0](../LICENSE.md)
+
 Foren- und Community-Plattformen mit Passkey-, WebAuthn- oder FIDO2-Unterstuetzung.
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |

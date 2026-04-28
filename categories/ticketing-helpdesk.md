@@ -1,5 +1,7 @@
 # Ticketsysteme und Helpdesk
 
+Lizenz dieser Seite: [CC BY-SA 4.0](../LICENSE.md)
+
 Ticketsysteme und Helpdesk-Projekte.
 
 | Projekt | Sprache | Implementierung | MFA/2FA | Passwordless | Links |

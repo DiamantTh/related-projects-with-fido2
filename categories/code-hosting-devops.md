@@ -1,5 +1,7 @@
 # Code-Hosting und DevOps
 
+Lizenz dieser Seite: [CC BY-SA 4.0](../LICENSE.md)
+
 Git-Plattformen und Entwicklerdienste mit Unterstuetzung fuer WebAuthn, FIDO2-Hardware-Keys oder Passkeys.
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |

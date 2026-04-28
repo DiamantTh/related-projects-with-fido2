@@ -1,5 +1,7 @@
 # CMS
 
+Lizenz dieser Seite: [CC BY-SA 4.0](../LICENSE.md)
+
 Content-Management-Systeme mit nativer oder plugin-basierter Unterstuetzung fuer FIDO2, WebAuthn oder Passkeys.
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |

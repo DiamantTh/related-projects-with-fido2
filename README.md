@@ -1,5 +1,7 @@
 # FOSS mit FIDO2
 
+Lizenz der Repo-Texte und Tabellen: [CC BY-SA 4.0](LICENSE.md)
+
 Diese Sammlung dokumentiert den aktuellen Stand von FOSS-Projekten und offenen Plattformen, die FIDO2, WebAuthn, Passkeys oder Hardware-Sicherheitsschluessel unterstuetzen. Aufgenommen werden nur Eintraege, fuer die sich die Unterstuetzung anhand belastbarer Quellen nachvollziehen laesst, bevorzugt ueber offizielle Dokumentation, offizielle Projektseiten oder offizielle Erweiterungen.
 
 Die Trennung zwischen `MFA/2FA` und `Passwordless` ist absichtlich strikt:

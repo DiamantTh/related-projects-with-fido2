@@ -1,5 +1,7 @@
 # Lizenz
 
+Gilt fuer die redaktionellen Texte und Tabellen dieses Repositories, sofern nicht anders angegeben.
+
 Sofern nicht anders angegeben, stehen die Texte, Tabellen und redaktionellen Inhalte in diesem Repository unter der:
 
 `Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)`

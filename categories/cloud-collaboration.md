@@ -1,5 +1,7 @@
 # Cloud und Zusammenarbeit
 
+Lizenz dieser Seite: [CC BY-SA 4.0](../LICENSE.md)
+
 Datei-, Groupware- und Kollaborationsplattformen mit FIDO2- oder WebAuthn-Unterstuetzung.
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |

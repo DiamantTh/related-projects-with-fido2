@@ -1,5 +1,7 @@
 # Fediverse und soziale Netzwerke
 
+Lizenz dieser Seite: [CC BY-SA 4.0](../LICENSE.md)
+
 Fediverse- und Social-Network-Projekte mit FIDO2-, WebAuthn- oder Passkey-Unterstuetzung.
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
