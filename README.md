@@ -67,10 +67,14 @@ Details: [categories/fediverse-social.md](categories/fediverse-social.md)
 
 Details: [categories/ticketing-helpdesk.md](categories/ticketing-helpdesk.md)
 
-| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
+| Projekt | Sprache | Implementierung | MFA/2FA | Passwordless | Links |
 | --- | --- | --- | --- | --- | --- |
-| Znuny | Perl | SSO/IdP | Kein nativer Nachweis | Indirekt via SAML-IdP | [Site](https://www.znuny.com/) [Code](https://github.com/znuny/Znuny) [SAML](https://www.znuny.com/blog/znuny-built-in-saml-authentication) |
-| Zammad | Ruby | SSO/IdP | Kein nativer Nachweis | Indirekt via Kerberos-SSO | [Site](https://zammad.com/) [Code](https://github.com/zammad/zammad) [SSO](https://docs.zammad.org/en/latest/appendix/single-sign-on.html) |
+| Znuny | Perl | Eingebautes SAML-SSO | Kein nativer Nachweis | Indirekt via SAML-IdP | [Site](https://www.znuny.com/) [Code](https://github.com/znuny/Znuny) [SAML](https://www.znuny.com/blog/znuny-built-in-saml-authentication) |
+| Zammad | Ruby | Kerberos-SSO | Kein nativer Nachweis | Indirekt via Kerberos-SSO | [Site](https://zammad.com/) [Code](https://github.com/zammad/zammad) [SSO](https://docs.zammad.org/en/latest/appendix/single-sign-on.html) |
+| GLPI | PHP | Offizielle OAuth-/SAML-Plugins | Kein nativer Nachweis | Indirekt via OAuth SSO oder SAML | [Site](https://glpi-project.org/) [Code](https://github.com/glpi-project/glpi) [Core-Auth](https://help.glpi-project.org/documentation/modules/configuration/authentication) [OAuth](https://help.glpi-project.org/doc-plugins/oauthsso) [SAML](https://help.glpi-project.org/doc-plugins/plugins-glpi/saml) |
+| FreeScout | PHP | Offizielles SAML-Modul | Kein nativer Nachweis | Indirekt via offiziellem SAML-Modul | [Site](https://freescout.net/) [Code](https://github.com/freescout-help-desk/freescout) [Module](https://github.com/freescout-help-desk/freescout/wiki/FreeScout-Modules) [SAML](https://freescout.net/module/saml/) [Git-Issue](https://github.com/freescout-help-desk/freescout/issues) |
+| osTicket | PHP | Klassische Auth / Plugins | Kein Nachweis | Kein Nachweis | [Site](https://osticket.com/) [Code](https://github.com/osTicket/osTicket) [Docs](https://docs.osticket.com/) [Plugins](https://github.com/osTicket/osTicket-plugins) |
+| Request Tracker (RT) | Perl | Externe Webserver-Auth | Kein nativer Nachweis | Indirekt ueber externen Webserver/Auth-Stack | [Site](https://bestpractical.com/request-tracker) [Code](https://github.com/bestpractical/rt) [Auth](https://docs.bestpractical.com/rt/5.0.9/authentication.html) |
 | OTOBO | Perl | Klassische Auth | Kein Nachweis | Kein Nachweis | [Site](https://otobo.de/en/) [Code](https://github.com/RotherOSS/otobo) [Auth](https://doc.otobo.org/manual/developer/10.1/en/content/how-to-extend-otobo/otobo-module-layers/auth-sync.html) |
 
 ## Wikis und Wissensmanagement
@@ -95,6 +99,7 @@ Details: [categories/community-forums.md](categories/community-forums.md)
 - `Offizielle App` oder `Offizielle Erweiterung` bedeutet: Nicht im Kern, aber ueber einen offiziell gefuehrten Baustein.
 - `Plugins` bedeutet: Die Unterstuetzung ist vorhanden, aber nicht Bestandteil des Kernprojekts.
 - `SSO/IdP` bedeutet: Die Anmeldung kann ueber ein externes Identitaetssystem laufen; FIDO2/Passkeys haengen dann vom angebundenen IdP ab, nicht vom Projekt selbst.
+- `Plugin/SSO` bedeutet: Die Funktion kommt ueber ein offizielles oder etabliertes Zusatzmodul und haengt oft ebenfalls am externen IdP.
 - `Impl.` ist die Kurzform fuer `Implementierung`.
 - `Off. App` und `Off. Erw.` sind Kurzformen fuer `Offizielle App` und `Offizielle Erweiterung`.
 - `*` markiert eine quellengestuetzte Inferenz statt einer direkten Produktdokumentation. Aktuell betrifft das `Forgejo`: Codeberg ist Forgejo-basiert und dokumentiert WebAuthn-2FA; zusaetzlich ist Forgejo ein Hard-Fork von Gitea.
@@ -108,7 +113,6 @@ Details: [categories/community-forums.md](categories/community-forums.md)
 - `phpBB` hat in der verlinkten Diskussion nur einen Verweis auf eine Erweiterung mit `U2F` und `OTP`; ein belastbarer WebAuthn-Nachweis liegt damit fuer mich noch nicht vor: https://www.phpbb.de/community/viewtopic.php?t=246177
 - `MyBB` dokumentiert 2FA allgemein und empfiehlt `U2F` bzw. `TOTP`, aber ich habe auf Basis der offiziellen Doku und des verlinkten Plugins noch keinen belastbaren WebAuthn-Nachweis: https://docs.mybb.com/1.8/administration/security/protection/ und https://www.mybb.de/erweiterungen/18x/plugins-sicherheit/my2fa/
 - `WoltLab Suite Core / WCF` fuehre ich nicht in den Haupttabellen. Aktuell sehe ich ein offenes Ticket zur nativen Umsetzung und ausserhalb davon vor allem ein separates Plugin, nicht belastbar als Core-Support: https://github.com/WoltLab/WCF/issues/6440 und https://www.woltlab.com/pluginstore/file/3101-webauthn-login/
-
 ## Lizenz
 
 Die Inhalte dieses Repos stehen unter `Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)`.
