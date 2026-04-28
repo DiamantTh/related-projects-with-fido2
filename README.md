@@ -15,6 +15,7 @@ Die Trennung zwischen `MFA/2FA` und `Passwordless` ist absichtlich strikt:
 - [Cloud und Zusammenarbeit](categories/cloud-collaboration.md)
 - [Identity und Access Management](categories/identity-access.md)
 - [Fediverse und soziale Netzwerke](categories/fediverse-social.md)
+- [Ticketsysteme und Helpdesk](categories/ticketing-helpdesk.md)
 - [Wikis und Wissensmanagement](categories/wikis-knowledge.md)
 - [Community und Foren](categories/community-forums.md)
 
@@ -34,6 +35,7 @@ Details: [categories/code-hosting-devops.md](categories/code-hosting-devops.md)
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
 | --- | --- | --- | --- | --- | --- |
 | Gitea | Go | Nativ | Ja | Kein Nachweis | [Site](https://about.gitea.com/) [Code](https://github.com/go-gitea/gitea) [Quelle](https://docs.gitea.com/1.23/usage/multi-factor-authentication) |
+| Forgejo | Go | Nativ* | Ja* | Kein Nachweis | [Site](https://forgejo.org/) [Info](https://docs.codeberg.org/getting-started/what-is-codeberg/) [2FA](https://docs.codeberg.org/security/2fa/) |
 | GitLab | Ruby | Nativ | Ja | Ja | [Site](https://about.gitlab.com/) [Code](https://gitlab.com/gitlab-org/gitlab) [PW](https://docs.gitlab.com/auth/passkeys/) [MFA](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) |
 
 ## Cloud und Zusammenarbeit
@@ -61,6 +63,16 @@ Details: [categories/fediverse-social.md](categories/fediverse-social.md)
 | --- | --- | --- | --- | --- | --- |
 | Mastodon | Ruby | Nativ | Ja | Kein Nachweis | [Site](https://joinmastodon.org/) [Code](https://github.com/mastodon/mastodon) [Issue](https://github.com/mastodon/mastodon/issues/16693) |
 
+## Ticketsysteme und Helpdesk
+
+Details: [categories/ticketing-helpdesk.md](categories/ticketing-helpdesk.md)
+
+| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
+| --- | --- | --- | --- | --- | --- |
+| Znuny | Perl | SSO/IdP | Kein nativer Nachweis | Indirekt via SAML-IdP | [Site](https://www.znuny.com/) [Code](https://github.com/znuny/Znuny) [SAML](https://www.znuny.com/blog/znuny-built-in-saml-authentication) |
+| Zammad | Ruby | SSO/IdP | Kein nativer Nachweis | Indirekt via Kerberos-SSO | [Site](https://zammad.com/) [Code](https://github.com/zammad/zammad) [SSO](https://docs.zammad.org/en/latest/appendix/single-sign-on.html) |
+| OTOBO | Perl | Klassische Auth | Kein Nachweis | Kein Nachweis | [Site](https://otobo.de/en/) [Code](https://github.com/RotherOSS/otobo) [Auth](https://doc.otobo.org/manual/developer/10.1/en/content/how-to-extend-otobo/otobo-module-layers/auth-sync.html) |
+
 ## Wikis und Wissensmanagement
 
 Details: [categories/wikis-knowledge.md](categories/wikis-knowledge.md)
@@ -82,15 +94,16 @@ Details: [categories/community-forums.md](categories/community-forums.md)
 - `Nativ` bedeutet: Die Funktion ist direkt im Projekt bzw. in dessen offizieller Dokumentation beschrieben.
 - `Offizielle App` oder `Offizielle Erweiterung` bedeutet: Nicht im Kern, aber ueber einen offiziell gefuehrten Baustein.
 - `Plugins` bedeutet: Die Unterstuetzung ist vorhanden, aber nicht Bestandteil des Kernprojekts.
+- `SSO/IdP` bedeutet: Die Anmeldung kann ueber ein externes Identitaetssystem laufen; FIDO2/Passkeys haengen dann vom angebundenen IdP ab, nicht vom Projekt selbst.
 - `Impl.` ist die Kurzform fuer `Implementierung`.
 - `Off. App` und `Off. Erw.` sind Kurzformen fuer `Offizielle App` und `Offizielle Erweiterung`.
+- `*` markiert eine quellengestuetzte Inferenz statt einer direkten Produktdokumentation. Aktuell betrifft das `Forgejo`: Codeberg ist Forgejo-basiert und dokumentiert WebAuthn-2FA; zusaetzlich ist Forgejo ein Hard-Fork von Gitea.
 - `Kein offizieller Nachweis gefunden` bedeutet nicht zwingend `unmoeglich`, sondern nur, dass hier bewusst nichts behauptet wird, was ich nicht sauber belegen konnte.
 - `Ja` in `Passwordless` kann projektabhaengig trotzdem mit weiteren Sicherheitsabfragen kombiniert sein; das ist in den verlinkten Quellen bzw. Issues zu pruefen.
 - Die Sprachspalte ist eine grobe Einordnung der Hauptsprache des Projekts.
 
 ## Offene und negative Faelle
 
-- `Forgejo` fuehre ich noch nicht separat auf. Dass es aus `Gitea` hervorgegangen ist, ist plausibel fuer aehnliches Verhalten, aber ich habe noch keine direkte Forgejo-Quelle fuer WebAuthn/FIDO2 gefunden. Siehe auch: https://docs.codeberg.org/getting-started/what-is-codeberg/ und https://docs.codeberg.org/security/2fa/
 - `Misskey` nehme ich noch nicht in die Haupttabellen auf. Fuer eine belastbare Primärquelle zu WebAuthn/Passkeys habe ich in den offiziellen Misskey-Dokumenten bzw. im offiziellen Projektkontext noch nichts Eindeutiges gefunden.
 - `phpBB` hat in der verlinkten Diskussion nur einen Verweis auf eine Erweiterung mit `U2F` und `OTP`; ein belastbarer WebAuthn-Nachweis liegt damit fuer mich noch nicht vor: https://www.phpbb.de/community/viewtopic.php?t=246177
 - `MyBB` dokumentiert 2FA allgemein und empfiehlt `U2F` bzw. `TOTP`, aber ich habe auf Basis der offiziellen Doku und des verlinkten Plugins noch keinen belastbaren WebAuthn-Nachweis: https://docs.mybb.com/1.8/administration/security/protection/ und https://www.mybb.de/erweiterungen/18x/plugins-sicherheit/my2fa/

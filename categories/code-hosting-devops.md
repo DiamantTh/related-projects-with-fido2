@@ -5,6 +5,7 @@ Git-Plattformen und Entwicklerdienste mit Unterstuetzung fuer WebAuthn, FIDO2-Ha
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
 | --- | --- | --- | --- | --- | --- |
 | Gitea | Go | Nativ | Ja | Kein Nachweis | [Site](https://about.gitea.com/) [Code](https://github.com/go-gitea/gitea) [Quelle](https://docs.gitea.com/1.23/usage/multi-factor-authentication) |
+| Forgejo | Go | Nativ* | Ja* | Kein Nachweis | [Site](https://forgejo.org/) [Info](https://docs.codeberg.org/getting-started/what-is-codeberg/) [2FA](https://docs.codeberg.org/security/2fa/) |
 | GitLab | Ruby | Nativ | Ja | Ja | [Site](https://about.gitlab.com/) [Code](https://gitlab.com/gitlab-org/gitlab) [PW](https://docs.gitlab.com/auth/passkeys/) [MFA](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) |
 
 ---
