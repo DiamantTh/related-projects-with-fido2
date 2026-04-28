@@ -39,6 +39,13 @@ Die Trennung zwischen `MFA/2FA` und `Passwordless` ist absichtlich strikt:
 - `Kein offizieller Nachweis gefunden` bedeutet nicht zwingend `unmoeglich`, sondern nur, dass hier bewusst nichts behauptet wird, was ich nicht sauber belegen konnte.
 - Die Sprachspalte ist eine grobe Einordnung der Hauptsprache des Projekts.
 
+## Lizenz
+
+Die Inhalte dieses Repos stehen unter `Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)`.
+
+- Lizenztext: [LICENSE.md](LICENSE.md)
+- Offizielle Lizenz: https://creativecommons.org/licenses/by-sa/4.0/
+
 ---
 
-Hinweis: Diese Markdown-Datei wurde mit Unterstuetzung von KI erstellt und anschliessend anhand der verlinkten Quellen strukturiert. Fehler, veraltete Angaben oder fehlende Projekte bitte per Issue oder Pull Request melden.
+Hinweis: Diese Markdown-Datei wurde mit Unterstuetzung von KI erstellt und anschliessend anhand der verlinkten Quellen strukturiert. Sofern nicht anders angegeben, stehen die Texte und Listen in diesem Repo unter CC BY-SA 4.0. Fehler, veraltete Angaben oder fehlende Projekte bitte per Issue oder Pull Request melden.

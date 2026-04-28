@@ -9,4 +9,4 @@ Content-Management-Systeme mit nativer oder plugin-basierter Unterstuetzung fuer
 
 ---
 
-Hinweis: Diese Markdown-Datei wurde mit Unterstuetzung von KI erstellt und anschliessend anhand der verlinkten Quellen strukturiert. Fehler, veraltete Angaben oder fehlende Projekte bitte per Issue oder Pull Request melden.
+Hinweis: Diese Markdown-Datei wurde mit Unterstuetzung von KI erstellt und anschliessend anhand der verlinkten Quellen strukturiert. Sofern nicht anders angegeben, stehen die Texte und Listen in diesem Repo unter CC BY-SA 4.0. Fehler, veraltete Angaben oder fehlende Projekte bitte per Issue oder Pull Request melden.
