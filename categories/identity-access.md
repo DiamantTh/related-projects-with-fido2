@@ -2,10 +2,10 @@
 
 Identity-Provider, SSO- und Access-Management-Projekte mit FIDO2-, WebAuthn- oder Passkey-Support.
 
-| Projekt | Website | Quellcode | Hauptsprache | Implementierung | MFA/2FA | Passwordless | Quelle |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| authentik | https://goauthentik.io/ | https://github.com/goauthentik/authentik | Python | Nativ | Ja | Ja | https://docs.goauthentik.io/add-secure-apps/flows-stages/stages/authenticator_webauthn/ ; https://docs.goauthentik.io/add-secure-apps/flows-stages/stages/identification/ |
-| Keycloak | https://www.keycloak.org/ | https://github.com/keycloak/keycloak | Java | Nativ | Ja, WebAuthn als 2FA | Ja, passwordless und loginless WebAuthn / Passkeys | https://www.keycloak.org/docs/latest/server_admin/ |
+| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
+| --- | --- | --- | --- | --- | --- |
+| authentik | Python | Nativ | Ja | Ja | [Site](https://goauthentik.io/) [Code](https://github.com/goauthentik/authentik) [WebAuthn](https://docs.goauthentik.io/add-secure-apps/flows-stages/stages/authenticator_webauthn/) [Login](https://docs.goauthentik.io/add-secure-apps/flows-stages/stages/identification/) |
+| Keycloak | Java | Nativ | Ja | Ja | [Site](https://www.keycloak.org/) [Code](https://github.com/keycloak/keycloak) [Doku](https://www.keycloak.org/docs/latest/server_admin/) |
 
 ---
 

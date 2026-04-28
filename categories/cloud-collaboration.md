@@ -2,9 +2,9 @@
 
 Datei-, Groupware- und Kollaborationsplattformen mit FIDO2- oder WebAuthn-Unterstuetzung.
 
-| Projekt | Website | Quellcode | Hauptsprache | Implementierung | MFA/2FA | Passwordless | Quelle |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Nextcloud | https://nextcloud.com/ | https://github.com/nextcloud/server | PHP | Offizielle App | Ja, ueber Two-Factor WebAuthn | Kein offizieller Nachweis gefunden | https://apps.nextcloud.com/apps/twofactor_webauthn ; https://docs.nextcloud.com/server/26/admin_manual/configuration_user/two_factor-auth.html |
+| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
+| --- | --- | --- | --- | --- | --- |
+| Nextcloud | PHP | Off. App | Ja | Kein Nachweis | [Site](https://nextcloud.com/) [Code](https://github.com/nextcloud/server) [App](https://apps.nextcloud.com/apps/twofactor_webauthn) [Doku](https://docs.nextcloud.com/server/26/admin_manual/configuration_user/two_factor-auth.html) |
 
 ---
 

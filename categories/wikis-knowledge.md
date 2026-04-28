@@ -2,9 +2,9 @@
 
 Wiki- und Wissensplattformen mit FIDO2, WebAuthn oder Passkey-Unterstuetzung, nativ oder per offizieller Erweiterung.
 
-| Projekt | Website | Quellcode | Hauptsprache | Implementierung | MFA/2FA | Passwordless | Quelle |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| MediaWiki | https://www.mediawiki.org/ | https://gerrit.wikimedia.org/g/mediawiki/core | PHP | Offizielle Erweiterung | Ja, Passkeys und Security Keys ueber OATHAuth | Experimentell, ueber OATHAuth | https://www.mediawiki.org/wiki/Extension:OATHAuth |
+| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
+| --- | --- | --- | --- | --- | --- |
+| MediaWiki | PHP | Off. Erw. | Ja | Experimentell | [Site](https://www.mediawiki.org/) [Code](https://gerrit.wikimedia.org/g/mediawiki/core) [OATHAuth](https://www.mediawiki.org/wiki/Extension:OATHAuth) |
 
 ---
 

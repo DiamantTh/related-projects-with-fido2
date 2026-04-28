@@ -2,10 +2,10 @@
 
 Content-Management-Systeme mit nativer oder plugin-basierter Unterstuetzung fuer FIDO2, WebAuthn oder Passkeys.
 
-| Projekt | Website | Quellcode | Hauptsprache | Implementierung | MFA/2FA | Passwordless | Quelle |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| WordPress | https://wordpress.com/de/ | https://github.com/WordPress/WordPress | PHP | Plugins | Ja, per Two-Factor WebAuthn Provider | Ja, per WP-WebAuthn | https://de.wordpress.org/plugins/two-factor-provider-webauthn/ ; https://de.wordpress.org/plugins/wp-webauthn/ |
-| Joomla | https://www.joomla.org/ | https://github.com/joomla/joomla-cms | PHP | Core / offizielle Doku | Ja, WebAuthn kann auch als zweiter Faktor genutzt werden | Ja, ueber System - WebAuthn Passwordless Login | https://docs.joomla.org/WebAuthn_Passwordless_Login/en ; https://docs.joomla.org/J4.x:Multi-factor_Authentication |
+| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
+| --- | --- | --- | --- | --- | --- |
+| WordPress | PHP | Plugin | Ja | Ja | [Site](https://wordpress.com/de/) [Code](https://github.com/WordPress/WordPress) [2FA](https://de.wordpress.org/plugins/two-factor-provider-webauthn/) [PW](https://de.wordpress.org/plugins/wp-webauthn/) |
+| Joomla | PHP | Nativ | Ja | Ja | [Site](https://www.joomla.org/) [Code](https://github.com/joomla/joomla-cms) [PW](https://docs.joomla.org/WebAuthn_Passwordless_Login/en) [MFA](https://docs.joomla.org/J4.x:Multi-factor_Authentication) |
 
 ---
 
