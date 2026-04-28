@@ -29,7 +29,7 @@ Details: [categories/cloud-collaboration.md](categories/cloud-collaboration.md)
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| Nextcloud | PHP | Off. App | Ja | Ja | Vorhanden | [Site](https://nextcloud.com/) [Code](https://github.com/nextcloud/server) [2FA-App](https://apps.nextcloud.com/apps/twofactor_webauthn) [PW-Issue](https://github.com/nextcloud/server/issues/51137) [MFA-Hinweis](https://github.com/nextcloud/twofactor_webauthn/issues/475) |
+| Nextcloud | PHP | Off. App | Ja | Ja | Vorhanden | [Site](https://nextcloud.com/) · [Code](https://github.com/nextcloud/server) · [2FA-App](https://apps.nextcloud.com/apps/twofactor_webauthn) · [PW-Issue](https://github.com/nextcloud/server/issues/51137) · [MFA-Hinweis](https://github.com/nextcloud/twofactor_webauthn/issues/475) |
 
 ## CMS
 
@@ -37,12 +37,12 @@ Details: [categories/cms.md](categories/cms.md)
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| Drupal | PHP | Modul | Kein Nachweis | Ja | Per Modul vorhanden | [Site](https://www.drupal.org/) [Code](https://git.drupalcode.org/project/drupal) [PW](https://www.drupal.org/project/wa) |
-| Ghost | JavaScript | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://ghost.org/) [Code](https://github.com/TryGhost/Ghost) [Docs](https://docs.ghost.org/) |
-| Grav | PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Offen | [Site](https://getgrav.org/) [Code](https://github.com/getgrav/grav) [Issue](https://github.com/getgrav/grav/issues/3919) |
-| Joomla | PHP | Nativ | Ja | Ja | Vorhanden | [Site](https://www.joomla.org/) [Code](https://github.com/joomla/joomla-cms) [PW](https://docs.joomla.org/WebAuthn_Passwordless_Login/en) [MFA](https://docs.joomla.org/J4.x:Multi-factor_Authentication) |
-| TYPO3 | PHP | Erweiterung | Kein Nachweis | Ja | Per Erweiterung vorhanden | [Site](https://typo3.org/) [Code](https://github.com/TYPO3/typo3) [BE](https://docs.typo3.org/p/netresearch/nr-passkeys-be/main/en-us/) [FE](https://docs.typo3.org/p/netresearch/nr-passkeys-fe/main/en-us) |
-| WordPress | PHP | Plugin | Ja | Ja | Per Plugin vorhanden | [Site](https://wordpress.com/de/) [Code](https://github.com/WordPress/WordPress) [2FA](https://de.wordpress.org/plugins/two-factor-provider-webauthn/) [PW](https://de.wordpress.org/plugins/wp-webauthn/) |
+| Drupal | PHP | Modul | Kein Nachweis | Ja | Per Modul vorhanden | [Site](https://www.drupal.org/) · [Code](https://git.drupalcode.org/project/drupal) · [PW](https://www.drupal.org/project/wa) |
+| Ghost | JavaScript | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://ghost.org/) · [Code](https://github.com/TryGhost/Ghost) · [Docs](https://docs.ghost.org/) |
+| Grav | PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Offen | [Site](https://getgrav.org/) · [Code](https://github.com/getgrav/grav) · [Issue](https://github.com/getgrav/grav/issues/3919) |
+| Joomla | PHP | Nativ | Ja | Ja | Vorhanden | [Site](https://www.joomla.org/) · [Code](https://github.com/joomla/joomla-cms) · [PW](https://docs.joomla.org/WebAuthn_Passwordless_Login/en) · [MFA](https://docs.joomla.org/J4.x:Multi-factor_Authentication) |
+| TYPO3 | PHP | Erweiterung | Kein Nachweis | Ja | Per Erweiterung vorhanden | [Site](https://typo3.org/) · [Code](https://github.com/TYPO3/typo3) · [BE](https://docs.typo3.org/p/netresearch/nr-passkeys-be/main/en-us/) · [FE](https://docs.typo3.org/p/netresearch/nr-passkeys-fe/main/en-us) |
+| WordPress | PHP | Plugin | Ja | Ja | Per Plugin vorhanden | [Site](https://wordpress.com/de/) · [Code](https://github.com/WordPress/WordPress) · [2FA](https://de.wordpress.org/plugins/two-factor-provider-webauthn/) · [PW](https://de.wordpress.org/plugins/wp-webauthn/) |
 
 ## Code-Hosting und DevOps
 
@@ -50,9 +50,9 @@ Details: [categories/code-hosting-devops.md](categories/code-hosting-devops.md)
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| Forgejo | Go | Nativ* | Ja* | Kein Nachweis | Teilweise vorhanden | [Site](https://forgejo.org/) [Info](https://docs.codeberg.org/getting-started/what-is-codeberg/) [2FA](https://docs.codeberg.org/security/2fa/) |
-| Gitea | Go | Nativ | Ja | Kein Nachweis | Teilweise vorhanden | [Site](https://about.gitea.com/) [Code](https://github.com/go-gitea/gitea) [Quelle](https://docs.gitea.com/1.23/usage/multi-factor-authentication) |
-| GitLab | Ruby | Nativ | Ja | Ja | Vorhanden | [Site](https://about.gitlab.com/) [Code](https://gitlab.com/gitlab-org/gitlab) [PW](https://docs.gitlab.com/auth/passkeys/) [MFA](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) |
+| Forgejo | Go | Nativ* | Ja* | Kein Nachweis | Teilweise vorhanden | [Site](https://forgejo.org/) · [Info](https://docs.codeberg.org/getting-started/what-is-codeberg/) · [2FA](https://docs.codeberg.org/security/2fa/) |
+| Gitea | Go | Nativ | Ja | Kein Nachweis | Teilweise vorhanden | [Site](https://about.gitea.com/) · [Code](https://github.com/go-gitea/gitea) · [Quelle](https://docs.gitea.com/1.23/usage/multi-factor-authentication) |
+| GitLab | Ruby | Nativ | Ja | Ja | Vorhanden | [Site](https://about.gitlab.com/) · [Code](https://gitlab.com/gitlab-org/gitlab) · [PW](https://docs.gitlab.com/auth/passkeys/) · [MFA](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) |
 
 ## Community und Foren
 
@@ -60,10 +60,10 @@ Details: [categories/community-forums.md](categories/community-forums.md)
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| Discourse | Ruby | Nativ | Ja | Ja | Vorhanden | [Site](https://www.discourse.org/) [Code](https://github.com/discourse/discourse) [PW](https://meta.discourse.org/t/passwordless-login-using-passkeys/285589) [MFA](https://meta.discourse.org/t/locked-out-of-a-discourse-forum-due-to-passkey-bug/362510/8?tl=en) |
-| Flarum | PHP | Plugin | Kein Nachweis | Ja | Per Plugin vorhanden | [Site](https://flarum.org/) [Code](https://github.com/flarum/framework) [PW](https://flarum.org/extension/hikarilan/flarum-passkey-login) [Thread](https://discuss.flarum.org/d/33682-passkey-login) |
-| NodeBB | JavaScript | Off. Plugin | Ja | Kein Nachweis | Teilweise vorhanden | [Site](https://nodebb.org/) [Code](https://github.com/NodeBB/NodeBB) [Blog](https://nodebb.org/blog/fido2-webauthn) [Plugin](https://www.npmjs.com/package/nodebb-plugin-2factor) |
-| WoltLab Suite Core / WCF | PHP | Kommerzielles Plugin | Kein Nachweis | Ja | Geplant | [Site](https://www.woltlab.com/) [Code](https://github.com/WoltLab/WCF) [Plugin](https://www.woltlab.com/pluginstore/file/3101-webauthn-login/) [Issue](https://github.com/WoltLab/WCF/issues/6440) |
+| Discourse | Ruby | Nativ | Ja | Ja | Vorhanden | [Site](https://www.discourse.org/) · [Code](https://github.com/discourse/discourse) · [PW](https://meta.discourse.org/t/passwordless-login-using-passkeys/285589) · [MFA](https://meta.discourse.org/t/locked-out-of-a-discourse-forum-due-to-passkey-bug/362510/8?tl=en) |
+| Flarum | PHP | Plugin | Kein Nachweis | Ja | Per Plugin vorhanden | [Site](https://flarum.org/) · [Code](https://github.com/flarum/framework) · [PW](https://flarum.org/extension/hikarilan/flarum-passkey-login) · [Thread](https://discuss.flarum.org/d/33682-passkey-login) |
+| NodeBB | JavaScript | Off. Plugin | Ja | Kein Nachweis | Teilweise vorhanden | [Site](https://nodebb.org/) · [Code](https://github.com/NodeBB/NodeBB) · [Blog](https://nodebb.org/blog/fido2-webauthn) · [Plugin](https://www.npmjs.com/package/nodebb-plugin-2factor) |
+| WoltLab Suite Core / WCF | PHP | Kommerzielles Plugin | Kein Nachweis | Ja | Geplant | [Site](https://www.woltlab.com/) · [Code](https://github.com/WoltLab/WCF) · [Plugin](https://www.woltlab.com/pluginstore/file/3101-webauthn-login/) · [Issue](https://github.com/WoltLab/WCF/issues/6440) |
 
 ## DNS- und Infrastruktur-Panels
 
@@ -71,8 +71,8 @@ Details: [categories/dns-infra-panels.md](categories/dns-infra-panels.md)
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| Poweradmin | PHP | Nativ | Nein (nur TOTP) | Kein Nachweis | Kein Hinweis | [Site](https://www.poweradmin.org/) [Code](https://github.com/poweradmin/poweradmin) [Auth](https://github.com/poweradmin/poweradmin) |
-| PowerDNS-Admin | Python | Nativ | Nein (nur TOTP) | Kein Nachweis | Kein Hinweis | [Site](https://powerdnsadmin.org) [Code](https://github.com/PowerDNS-Admin/PowerDNS-Admin) [Auth](https://github.com/PowerDNS-Admin/PowerDNS-Admin) |
+| Poweradmin | PHP | Nativ | Nein (nur TOTP) | Kein Nachweis | Kein Hinweis | [Site](https://www.poweradmin.org/) · [Code](https://github.com/poweradmin/poweradmin) · [Auth](https://github.com/poweradmin/poweradmin) |
+| PowerDNS-Admin | Python | Nativ | Nein (nur TOTP) | Kein Nachweis | Kein Hinweis | [Site](https://powerdnsadmin.org) · [Code](https://github.com/PowerDNS-Admin/PowerDNS-Admin) · [Auth](https://github.com/PowerDNS-Admin/PowerDNS-Admin) |
 
 ## Fediverse und soziale Netzwerke
 
@@ -80,11 +80,11 @@ Details: [categories/fediverse-social.md](categories/fediverse-social.md)
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| Akkoma | Elixir | Kein Nachweis | Kein Nachweis | Kein Nachweis | Offen | [Site](https://akkoma.dev/) [Code](https://akkoma.dev/AkkomaGang/akkoma) [Issue](https://akkoma.dev/AkkomaGang/akkoma/issues/608) |
-| Mastodon | Ruby | Nativ | Ja | Kein Nachweis | Offen | [Site](https://joinmastodon.org/) [Code](https://github.com/mastodon/mastodon) [Issue](https://github.com/mastodon/mastodon/issues/16693) |
-| Misskey | TypeScript | Nativ | Ja | Ja | Vorhanden | [Site](https://misskey-hub.net/en/) [Code](https://github.com/misskey-dev/misskey) [Frontend](https://github.com/misskey-dev/misskey/blob/develop/packages/frontend/src/components/MkSignin.vue) [2FA-UI](https://github.com/misskey-dev/misskey/blob/develop/packages/frontend/src/pages/settings/2fa.vue) [Backend](https://github.com/misskey-dev/misskey/blob/develop/packages/backend/src/core/WebAuthnService.ts) [E2E](https://github.com/misskey-dev/misskey/blob/develop/packages/backend/test/e2e/2fa.ts) |
-| PeerTube | TypeScript | Nativ | Nein (nur TOTP) | Kein Nachweis | Kein Hinweis | [Site](https://joinpeertube.org/de) [Code](https://github.com/Chocobozzz/PeerTube) [2FA-Doku](https://docs.joinpeertube.org/use-setup-account) [API](https://docs.joinpeertube.org/api-rest-reference.html) |
-| Pleroma | Elixir | Kein Nachweis | Kein Nachweis | Kein Nachweis | Offen | [Site](https://pleroma.social/) [Code](https://git.pleroma.social/pleroma/pleroma) [Issue-2893](https://git.pleroma.social/pleroma/pleroma/issues/2893) [Issue-1868](https://git.pleroma.social/pleroma/pleroma/issues/1868) [Issue-209](https://git.pleroma.social/pleroma/pleroma/issues/209) |
+| Akkoma | Elixir | Kein Nachweis | Kein Nachweis | Kein Nachweis | Offen | [Site](https://akkoma.dev/) · [Code](https://akkoma.dev/AkkomaGang/akkoma) · [Issue](https://akkoma.dev/AkkomaGang/akkoma/issues/608) |
+| Mastodon | Ruby | Nativ | Ja | Kein Nachweis | Offen | [Site](https://joinmastodon.org/) · [Code](https://github.com/mastodon/mastodon) · [Issue](https://github.com/mastodon/mastodon/issues/16693) |
+| Misskey | TypeScript | Nativ | Ja | Ja | Vorhanden | [Site](https://misskey-hub.net/en/) · [Code](https://github.com/misskey-dev/misskey) · [Frontend](https://github.com/misskey-dev/misskey/blob/develop/packages/frontend/src/components/MkSignin.vue) · [2FA-UI](https://github.com/misskey-dev/misskey/blob/develop/packages/frontend/src/pages/settings/2fa.vue) · [Backend](https://github.com/misskey-dev/misskey/blob/develop/packages/backend/src/core/WebAuthnService.ts) · [E2E](https://github.com/misskey-dev/misskey/blob/develop/packages/backend/test/e2e/2fa.ts) |
+| PeerTube | TypeScript | Nativ | Nein (nur TOTP) | Kein Nachweis | Kein Hinweis | [Site](https://joinpeertube.org/de) · [Code](https://github.com/Chocobozzz/PeerTube) · [2FA-Doku](https://docs.joinpeertube.org/use-setup-account) · [API](https://docs.joinpeertube.org/api-rest-reference.html) |
+| Pleroma | Elixir | Kein Nachweis | Kein Nachweis | Kein Nachweis | Offen | [Site](https://pleroma.social/) · [Code](https://git.pleroma.social/pleroma/pleroma) · [Issue-2893](https://git.pleroma.social/pleroma/pleroma/issues/2893) · [Issue-1868](https://git.pleroma.social/pleroma/pleroma/issues/1868) · [Issue-209](https://git.pleroma.social/pleroma/pleroma/issues/209) |
 
 ## Identity und Access Management
 
@@ -92,8 +92,8 @@ Details: [categories/identity-access.md](categories/identity-access.md)
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| authentik | Python | Nativ | Ja | Ja | Vorhanden | [Site](https://goauthentik.io/) [Code](https://github.com/goauthentik/authentik) [WebAuthn](https://docs.goauthentik.io/add-secure-apps/flows-stages/stages/authenticator_webauthn/) [Login](https://docs.goauthentik.io/add-secure-apps/flows-stages/stages/identification/) |
-| Keycloak | Java | Nativ | Ja | Ja | Vorhanden | [Site](https://www.keycloak.org/) [Code](https://github.com/keycloak/keycloak) [Doku](https://www.keycloak.org/docs/latest/server_admin/) |
+| authentik | Python | Nativ | Ja | Ja | Vorhanden | [Site](https://goauthentik.io/) · [Code](https://github.com/goauthentik/authentik) · [WebAuthn](https://docs.goauthentik.io/add-secure-apps/flows-stages/stages/authenticator_webauthn/) · [Login](https://docs.goauthentik.io/add-secure-apps/flows-stages/stages/identification/) |
+| Keycloak | Java | Nativ | Ja | Ja | Vorhanden | [Site](https://www.keycloak.org/) · [Code](https://github.com/keycloak/keycloak) · [Doku](https://www.keycloak.org/docs/latest/server_admin/) |
 
 ## Server- und Hosting-Panels
 
@@ -101,13 +101,13 @@ Details: [categories/server-hosting-panels.md](categories/server-hosting-panels.
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| Froxlor | PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Offen | [Site](https://froxlor.org/) [Code](https://github.com/Froxlor/Froxlor) [Issue](https://github.com/Froxlor/Froxlor/issues/1281) [2FA-Datei](https://github.com/Froxlor/Froxlor/blob/main/2fa.php) [Docs](https://docs.froxlor.org/) |
-| HestiaCP | Shell/PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://hestiacp.com/) [Code](https://github.com/hestiacp/hestiacp) |
-| ISPConfig | PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://www.ispconfig.org/) [Docs](https://www.ispconfig.org/documentation/) |
-| Portainer CE | TypeScript/Go | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://www.portainer.io/) [Code](https://github.com/portainer/portainer) [Docs](https://docs.portainer.io/) |
-| Proxmox VE | Perl/JavaScript | Nativ | Ja | Kein Nachweis | Teilweise vorhanden | [Site](https://www.proxmox.com/en/proxmox-virtual-environment/overview) [Code](https://github.com/proxmox) [WebAuthn](https://pve.proxmox.com/pve-docs/chapter-pveum.html) |
-| Virtualmin GPL | Perl | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://www.virtualmin.com/) [Info](https://webmin.com/virtualmin/) |
-| Webmin | Perl | Nativ | Nein (nur TOTP) | Kein Nachweis | Kein Hinweis | [Site](https://webmin.com/) [Code](https://github.com/webmin/webmin) [2FA](https://webmin.com/docs/modules/webmin-configuration) |
+| Froxlor | PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Offen | [Site](https://froxlor.org/) · [Code](https://github.com/Froxlor/Froxlor) · [Issue](https://github.com/Froxlor/Froxlor/issues/1281) · [2FA-Datei](https://github.com/Froxlor/Froxlor/blob/main/2fa.php) · [Docs](https://docs.froxlor.org/) |
+| HestiaCP | Shell/PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://hestiacp.com/) · [Code](https://github.com/hestiacp/hestiacp) |
+| ISPConfig | PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://www.ispconfig.org/) · [Docs](https://www.ispconfig.org/documentation/) |
+| Portainer CE | TypeScript/Go | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://www.portainer.io/) · [Code](https://github.com/portainer/portainer) · [Docs](https://docs.portainer.io/) |
+| Proxmox VE | Perl/JavaScript | Nativ | Ja | Kein Nachweis | Teilweise vorhanden | [Site](https://www.proxmox.com/en/proxmox-virtual-environment/overview) · [Code](https://github.com/proxmox) · [WebAuthn](https://pve.proxmox.com/pve-docs/chapter-pveum.html) |
+| Virtualmin GPL | Perl | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://www.virtualmin.com/) · [Info](https://webmin.com/virtualmin/) |
+| Webmin | Perl | Nativ | Nein (nur TOTP) | Kein Nachweis | Kein Hinweis | [Site](https://webmin.com/) · [Code](https://github.com/webmin/webmin) · [2FA](https://webmin.com/docs/modules/webmin-configuration) |
 
 ## Ticketsysteme und Helpdesk
 
@@ -115,13 +115,13 @@ Details: [categories/ticketing-helpdesk.md](categories/ticketing-helpdesk.md)
 
 | Projekt | Sprache | Implementierung | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| FreeScout | PHP | Offizielles SAML-Modul | Kein nativer Nachweis | Indirekt via offiziellem SAML-Modul | Kein Hinweis | [Site](https://freescout.net/) [Code](https://github.com/freescout-help-desk/freescout) [Module](https://github.com/freescout-help-desk/freescout/wiki/FreeScout-Modules) [SAML](https://freescout.net/module/saml/) [Git-Issue](https://github.com/freescout-help-desk/freescout/issues) |
-| GLPI | PHP | Offizielle OAuth-/SAML-Plugins | Kein nativer Nachweis | Indirekt via OAuth SSO oder SAML | Kein Hinweis | [Site](https://glpi-project.org/) [Code](https://github.com/glpi-project/glpi) [Core-Auth](https://help.glpi-project.org/documentation/modules/configuration/authentication) [OAuth](https://help.glpi-project.org/doc-plugins/oauthsso) [SAML](https://help.glpi-project.org/doc-plugins/plugins-glpi/saml) |
-| osTicket | PHP | Klassische Auth / Plugins | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://osticket.com/) [Code](https://github.com/osTicket/osTicket) [Docs](https://docs.osticket.com/) [Plugins](https://github.com/osTicket/osTicket-plugins) |
-| OTOBO | Perl | Klassische Auth | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://otobo.de/en/) [Code](https://github.com/RotherOSS/otobo) [Auth](https://doc.otobo.org/manual/developer/10.1/en/content/how-to-extend-otobo/otobo-module-layers/auth-sync.html) |
-| Request Tracker (RT) | Perl | Externe Webserver-Auth | Kein nativer Nachweis | Indirekt ueber externen Webserver/Auth-Stack | Kein Hinweis | [Site](https://bestpractical.com/request-tracker) [Code](https://github.com/bestpractical/rt) [Auth](https://docs.bestpractical.com/rt/5.0.9/authentication.html) |
-| Zammad | Ruby | Kerberos-SSO | Kein nativer Nachweis | Indirekt via Kerberos-SSO | Kein Hinweis | [Site](https://zammad.com/) [Code](https://github.com/zammad/zammad) [SSO](https://docs.zammad.org/en/latest/appendix/single-sign-on.html) |
-| Znuny | Perl | Eingebautes SAML-SSO | Kein nativer Nachweis | Indirekt via SAML-IdP | Kein Hinweis | [Site](https://www.znuny.com/) [Code](https://github.com/znuny/Znuny) [SAML](https://www.znuny.com/blog/znuny-built-in-saml-authentication) |
+| FreeScout | PHP | Offizielles SAML-Modul | Kein nativer Nachweis | Indirekt via offiziellem SAML-Modul | Kein Hinweis | [Site](https://freescout.net/) · [Code](https://github.com/freescout-help-desk/freescout) · [Module](https://github.com/freescout-help-desk/freescout/wiki/FreeScout-Modules) · [SAML](https://freescout.net/module/saml/) · [Git-Issue](https://github.com/freescout-help-desk/freescout/issues) |
+| GLPI | PHP | Offizielle OAuth-/SAML-Plugins | Kein nativer Nachweis | Indirekt via OAuth SSO oder SAML | Kein Hinweis | [Site](https://glpi-project.org/) · [Code](https://github.com/glpi-project/glpi) · [Core-Auth](https://help.glpi-project.org/documentation/modules/configuration/authentication) · [OAuth](https://help.glpi-project.org/doc-plugins/oauthsso) · [SAML](https://help.glpi-project.org/doc-plugins/plugins-glpi/saml) |
+| osTicket | PHP | Klassische Auth / Plugins | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://osticket.com/) · [Code](https://github.com/osTicket/osTicket) · [Docs](https://docs.osticket.com/) · [Plugins](https://github.com/osTicket/osTicket-plugins) |
+| OTOBO | Perl | Klassische Auth | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://otobo.de/en/) · [Code](https://github.com/RotherOSS/otobo) · [Auth](https://doc.otobo.org/manual/developer/10.1/en/content/how-to-extend-otobo/otobo-module-layers/auth-sync.html) |
+| Request Tracker (RT) | Perl | Externe Webserver-Auth | Kein nativer Nachweis | Indirekt ueber externen Webserver/Auth-Stack | Kein Hinweis | [Site](https://bestpractical.com/request-tracker) · [Code](https://github.com/bestpractical/rt) · [Auth](https://docs.bestpractical.com/rt/5.0.9/authentication.html) |
+| Zammad | Ruby | Kerberos-SSO | Kein nativer Nachweis | Indirekt via Kerberos-SSO | Kein Hinweis | [Site](https://zammad.com/) · [Code](https://github.com/zammad/zammad) · [SSO](https://docs.zammad.org/en/latest/appendix/single-sign-on.html) |
+| Znuny | Perl | Eingebautes SAML-SSO | Kein nativer Nachweis | Indirekt via SAML-IdP | Kein Hinweis | [Site](https://www.znuny.com/) · [Code](https://github.com/znuny/Znuny) · [SAML](https://www.znuny.com/blog/znuny-built-in-saml-authentication) |
 
 ## Wikis und Wissensmanagement
 
@@ -129,7 +129,7 @@ Details: [categories/wikis-knowledge.md](categories/wikis-knowledge.md)
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| MediaWiki | PHP | Off. Erw. | Ja | Experimentell | Teilweise vorhanden | [Site](https://www.mediawiki.org/) [Code](https://gerrit.wikimedia.org/g/mediawiki/core) [OATHAuth](https://www.mediawiki.org/wiki/Extension:OATHAuth) |
+| MediaWiki | PHP | Off. Erw. | Ja | Experimentell | Teilweise vorhanden | [Site](https://www.mediawiki.org/) · [Code](https://gerrit.wikimedia.org/g/mediawiki/core) · [OATHAuth](https://www.mediawiki.org/wiki/Extension:OATHAuth) |
 
 ## Hinweise zur Einordnung
 

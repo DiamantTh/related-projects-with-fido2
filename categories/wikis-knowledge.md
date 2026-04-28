@@ -6,7 +6,7 @@ Wiki- und Wissensplattformen mit FIDO2, WebAuthn oder Passkey-Unterstuetzung, na
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| MediaWiki | PHP | Off. Erw. | Ja | Experimentell | Teilweise vorhanden | [Site](https://www.mediawiki.org/) [Code](https://gerrit.wikimedia.org/g/mediawiki/core) [OATHAuth](https://www.mediawiki.org/wiki/Extension:OATHAuth) |
+| MediaWiki | PHP | Off. Erw. | Ja | Experimentell | Teilweise vorhanden | [Site](https://www.mediawiki.org/) · [Code](https://gerrit.wikimedia.org/g/mediawiki/core) · [OATHAuth](https://www.mediawiki.org/wiki/Extension:OATHAuth) |
 
 ---
 
