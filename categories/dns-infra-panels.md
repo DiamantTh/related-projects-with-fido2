@@ -4,10 +4,10 @@ Lizenz dieser Seite: [CC BY-SA 4.0](../LICENSE.md)
 
 DNS-Frontends, Verwaltungsoberflaechen und Infrastruktur-Panels mit belegtem oder fehlendem WebAuthn-/FIDO2-Status.
 
-| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
-| --- | --- | --- | --- | --- | --- |
-| Poweradmin | PHP | Nativ | Nein (nur TOTP) | Kein Nachweis | [Site](https://www.poweradmin.org/) [Code](https://github.com/poweradmin/poweradmin) [Auth](https://github.com/poweradmin/poweradmin) |
-| PowerDNS-Admin | Python | Nativ | Nein (nur TOTP) | Kein Nachweis | [Site](https://powerdnsadmin.org) [Code](https://github.com/PowerDNS-Admin/PowerDNS-Admin) [Auth](https://github.com/PowerDNS-Admin/PowerDNS-Admin) |
+| Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
+| --- | --- | --- | --- | --- | --- | --- |
+| Poweradmin | PHP | Nativ | Nein (nur TOTP) | Kein Nachweis | Kein Hinweis | [Site](https://www.poweradmin.org/) [Code](https://github.com/poweradmin/poweradmin) [Auth](https://github.com/poweradmin/poweradmin) |
+| PowerDNS-Admin | Python | Nativ | Nein (nur TOTP) | Kein Nachweis | Kein Hinweis | [Site](https://powerdnsadmin.org) [Code](https://github.com/PowerDNS-Admin/PowerDNS-Admin) [Auth](https://github.com/PowerDNS-Admin/PowerDNS-Admin) |
 
 ---
 
