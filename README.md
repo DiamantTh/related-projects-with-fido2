@@ -66,6 +66,7 @@ Details: [categories/fediverse-social.md](categories/fediverse-social.md)
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
 | --- | --- | --- | --- | --- | --- |
 | Mastodon | Ruby | Nativ | Ja | Kein Nachweis | [Site](https://joinmastodon.org/) [Code](https://github.com/mastodon/mastodon) [Issue](https://github.com/mastodon/mastodon/issues/16693) |
+| Misskey | TypeScript | Nativ | Ja | Ja | [Site](https://misskey-hub.net/en/) [Code](https://github.com/misskey-dev/misskey) [Frontend](https://github.com/misskey-dev/misskey/blob/develop/packages/frontend/src/components/MkSignin.vue) [2FA-UI](https://github.com/misskey-dev/misskey/blob/develop/packages/frontend/src/pages/settings/2fa.vue) [Backend](https://github.com/misskey-dev/misskey/blob/develop/packages/backend/src/core/WebAuthnService.ts) [E2E](https://github.com/misskey-dev/misskey/blob/develop/packages/backend/test/e2e/2fa.ts) |
 
 ## Identity und Access Management
 
@@ -113,7 +114,6 @@ Details: [categories/wikis-knowledge.md](categories/wikis-knowledge.md)
 
 ## Offene und negative Faelle
 
-- `Misskey` hat in der offiziellen Doku eine Schritt-fuer-Schritt-Anleitung fuer `Two-Factor Authentication (One-Time Password)`. Einen belastbaren offiziellen Nachweis fuer `WebAuthn`, `Passkeys` oder `FIDO2` habe ich dagegen weiterhin nicht gefunden: https://misskey-hub.net/en/docs/for-users/stepped-guides/ und https://misskey-hub.net/ko/docs/for-users/stepped-guides/how-to-enable-2fa/
 - `MyBB` dokumentiert offiziell `Two-Factor Authentication` mit `Authenticator Apps` und QR-Code-Setup fuer Administratoren im Admin-CP. Die allgemeine Security-Doku erwaehnt zwar `U2F` als bevorzugten Faktor-Typ, aber einen belastbaren offiziellen WebAuthn-Nachweis fuer MyBB selbst habe ich weiterhin nicht gefunden: https://docs.mybb.com/1.8/administration/security/2fa/ und https://docs.mybb.com/1.8/administration/security/protection/
 - `phpBB` zeigt in den offiziellen Repositories und Erweiterungsquellen fuer mich weiter keinen belastbaren WebAuthn-Nachweis. In der deutschsprachigen Diskussion taucht nur eine Erweiterung mit `U2F` und `OTP` auf: https://www.phpbb.de/community/viewtopic.php?t=246177 und https://github.com/phpbb-extensions
 

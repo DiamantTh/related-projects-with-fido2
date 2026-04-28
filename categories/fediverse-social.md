@@ -7,6 +7,7 @@ Fediverse- und Social-Network-Projekte mit FIDO2-, WebAuthn- oder Passkey-Unters
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Links |
 | --- | --- | --- | --- | --- | --- |
 | Mastodon | Ruby | Nativ | Ja | Kein Nachweis | [Site](https://joinmastodon.org/) [Code](https://github.com/mastodon/mastodon) [Issue](https://github.com/mastodon/mastodon/issues/16693) |
+| Misskey | TypeScript | Nativ | Ja | Ja | [Site](https://misskey-hub.net/en/) [Code](https://github.com/misskey-dev/misskey) [Frontend](https://github.com/misskey-dev/misskey/blob/develop/packages/frontend/src/components/MkSignin.vue) [2FA-UI](https://github.com/misskey-dev/misskey/blob/develop/packages/frontend/src/pages/settings/2fa.vue) [Backend](https://github.com/misskey-dev/misskey/blob/develop/packages/backend/src/core/WebAuthnService.ts) [E2E](https://github.com/misskey-dev/misskey/blob/develop/packages/backend/test/e2e/2fa.ts) |
 
 ---
 
