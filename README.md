@@ -164,8 +164,8 @@ Details: [categories/wikis-knowledge.md](categories/wikis-knowledge.md)
 
 Die Inhalte dieses Repos stehen unter `Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)`.
 
-- Lizenztext: [LICENSE.md](LICENSE.md)
-- Offizielle Lizenz: https://creativecommons.org/licenses/by-sa/4.0/
+- Lizenztext und Hinweise: [LICENSE.md](LICENSE.md)
+- Die offizielle Creative-Commons-Referenz ist dort ebenfalls verlinkt.
 
 ---
 
