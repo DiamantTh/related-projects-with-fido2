@@ -111,9 +111,9 @@ Details: [categories/wikis-knowledge.md](categories/wikis-knowledge.md)
 
 ## Offene und negative Faelle
 
-- `Misskey` nehme ich noch nicht in die Haupttabellen auf. Fuer eine belastbare Primärquelle zu WebAuthn/Passkeys habe ich in den offiziellen Misskey-Dokumenten bzw. im offiziellen Projektkontext noch nichts Eindeutiges gefunden.
-- `MyBB` dokumentiert 2FA allgemein und empfiehlt `U2F` bzw. `TOTP`, aber ich habe auf Basis der offiziellen Doku und des verlinkten Plugins noch keinen belastbaren WebAuthn-Nachweis: https://docs.mybb.com/1.8/administration/security/protection/ und https://www.mybb.de/erweiterungen/18x/plugins-sicherheit/my2fa/
-- `phpBB` hat in der verlinkten Diskussion nur einen Verweis auf eine Erweiterung mit `U2F` und `OTP`; ein belastbarer WebAuthn-Nachweis liegt damit fuer mich noch nicht vor: https://www.phpbb.de/community/viewtopic.php?t=246177
+- `Misskey` hat in der offiziellen Doku eine Schritt-fuer-Schritt-Anleitung fuer `Two-Factor Authentication (One-Time Password)`. Einen belastbaren offiziellen Nachweis fuer `WebAuthn`, `Passkeys` oder `FIDO2` habe ich dagegen weiterhin nicht gefunden: https://misskey-hub.net/en/docs/for-users/stepped-guides/ und https://misskey-hub.net/ko/docs/for-users/stepped-guides/how-to-enable-2fa/
+- `MyBB` dokumentiert offiziell `Two-Factor Authentication` mit `Authenticator Apps` und QR-Code-Setup fuer Administratoren im Admin-CP. Die allgemeine Security-Doku erwaehnt zwar `U2F` als bevorzugten Faktor-Typ, aber einen belastbaren offiziellen WebAuthn-Nachweis fuer MyBB selbst habe ich weiterhin nicht gefunden: https://docs.mybb.com/1.8/administration/security/2fa/ und https://docs.mybb.com/1.8/administration/security/protection/
+- `phpBB` zeigt in den offiziellen Repositories und Erweiterungsquellen fuer mich weiter keinen belastbaren WebAuthn-Nachweis. In der deutschsprachigen Diskussion taucht nur eine Erweiterung mit `U2F` und `OTP` auf: https://www.phpbb.de/community/viewtopic.php?t=246177 und https://github.com/phpbb-extensions
 
 ## Lizenz
 
