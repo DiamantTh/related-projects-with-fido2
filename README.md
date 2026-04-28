@@ -63,7 +63,7 @@ Details: [categories/community-forums.md](categories/community-forums.md)
 | Discourse | Ruby | Nativ | Ja | Ja | Vorhanden | [Site](https://www.discourse.org/) [Code](https://github.com/discourse/discourse) [PW](https://meta.discourse.org/t/passwordless-login-using-passkeys/285589) [MFA](https://meta.discourse.org/t/locked-out-of-a-discourse-forum-due-to-passkey-bug/362510/8?tl=en) |
 | Flarum | PHP | Plugin | Kein Nachweis | Ja | Per Plugin vorhanden | [Site](https://flarum.org/) [Code](https://github.com/flarum/framework) [PW](https://flarum.org/extension/hikarilan/flarum-passkey-login) [Thread](https://discuss.flarum.org/d/33682-passkey-login) |
 | NodeBB | JavaScript | Off. Plugin | Ja | Kein Nachweis | Teilweise vorhanden | [Site](https://nodebb.org/) [Code](https://github.com/NodeBB/NodeBB) [Blog](https://nodebb.org/blog/fido2-webauthn) [Plugin](https://www.npmjs.com/package/nodebb-plugin-2factor) |
-| WoltLab Suite Core / WCF | PHP | Kommerzielles Plugin | Kein Nachweis | Ja | Offen | [Site](https://www.woltlab.com/) [Code](https://github.com/WoltLab/WCF) [Plugin](https://www.woltlab.com/pluginstore/file/3101-webauthn-login/) [Issue](https://github.com/WoltLab/WCF/issues/6440) |
+| WoltLab Suite Core / WCF | PHP | Kommerzielles Plugin | Kein Nachweis | Ja | Geplant | [Site](https://www.woltlab.com/) [Code](https://github.com/WoltLab/WCF) [Plugin](https://www.woltlab.com/pluginstore/file/3101-webauthn-login/) [Issue](https://github.com/WoltLab/WCF/issues/6440) |
 
 ## DNS- und Infrastruktur-Panels
 
@@ -80,6 +80,7 @@ Details: [categories/fediverse-social.md](categories/fediverse-social.md)
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
+| Akkoma | Elixir | Kein Nachweis | Kein Nachweis | Kein Nachweis | Offen | [Site](https://akkoma.dev/) [Code](https://akkoma.dev/AkkomaGang/akkoma) [Issue](https://akkoma.dev/AkkomaGang/akkoma/issues/608) |
 | Mastodon | Ruby | Nativ | Ja | Kein Nachweis | Offen | [Site](https://joinmastodon.org/) [Code](https://github.com/mastodon/mastodon) [Issue](https://github.com/mastodon/mastodon/issues/16693) |
 | Misskey | TypeScript | Nativ | Ja | Ja | Vorhanden | [Site](https://misskey-hub.net/en/) [Code](https://github.com/misskey-dev/misskey) [Frontend](https://github.com/misskey-dev/misskey/blob/develop/packages/frontend/src/components/MkSignin.vue) [2FA-UI](https://github.com/misskey-dev/misskey/blob/develop/packages/frontend/src/pages/settings/2fa.vue) [Backend](https://github.com/misskey-dev/misskey/blob/develop/packages/backend/src/core/WebAuthnService.ts) [E2E](https://github.com/misskey-dev/misskey/blob/develop/packages/backend/test/e2e/2fa.ts) |
 
@@ -98,7 +99,7 @@ Details: [categories/server-hosting-panels.md](categories/server-hosting-panels.
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| Froxlor | PHP | Repo-Spur | Unklar | Kein Nachweis | Unklar | [Site](https://froxlor.org/) [Code](https://github.com/Froxlor/Froxlor) [2FA-Datei](https://github.com/Froxlor/Froxlor/blob/main/2fa.php) [Docs](https://docs.froxlor.org/) |
+| Froxlor | PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Offen | [Site](https://froxlor.org/) [Code](https://github.com/Froxlor/Froxlor) [Issue](https://github.com/Froxlor/Froxlor/issues/1281) [2FA-Datei](https://github.com/Froxlor/Froxlor/blob/main/2fa.php) [Docs](https://docs.froxlor.org/) |
 | HestiaCP | Shell/PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://hestiacp.com/) [Code](https://github.com/hestiacp/hestiacp) |
 | ISPConfig | PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://www.ispconfig.org/) [Docs](https://www.ispconfig.org/documentation/) |
 | Portainer CE | TypeScript/Go | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://www.portainer.io/) [Code](https://github.com/portainer/portainer) [Docs](https://docs.portainer.io/) |
@@ -139,6 +140,7 @@ Details: [categories/wikis-knowledge.md](categories/wikis-knowledge.md)
 - `Vorhanden` bedeutet: Das Projekt hat den benoetigten Support bereits in der geprueften Form.
 - `Teilweise vorhanden` bedeutet: Ein Teil des Supports ist da, z. B. nur MFA/2FA, aber nicht klar passwordless.
 - `Per Plugin vorhanden` oder `Per Erweiterung vorhanden` bedeutet: Die Funktion ist verfuegbar, aber nicht nativ im Kern.
+- `Geplant` bedeutet: Es gibt einen konkreten Hinweis, dass WebAuthn/FIDO2/Passkeys kommen sollen, auch wenn es noch nicht verfuegbar ist.
 - `Offen` bedeutet: Es gibt eine erkennbare Diskussion, ein Feature-Request oder eine laufende Richtung.
 - `Kein Nachweis` bedeutet: In den geprueften offiziellen Quellen habe ich fuer WebAuthn/FIDO2/Passkeys keinen belastbaren Beleg gefunden.
 - `Nein (nur TOTP)` bedeutet: Offiziell belegt ist klassische 2FA, aber nicht WebAuthn/FIDO2/Passkeys.

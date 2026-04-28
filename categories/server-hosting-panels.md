@@ -6,7 +6,7 @@ Server-, Hosting- und Deployment-Panels mit belegtem oder fehlendem WebAuthn-/FI
 
 | Projekt | Sprache | Impl. | MFA/2FA | Passwordless | Ausblick | Links |
 | --- | --- | --- | --- | --- | --- | --- |
-| Froxlor | PHP | Repo-Spur | Unklar | Kein Nachweis | Unklar | [Site](https://froxlor.org/) [Code](https://github.com/Froxlor/Froxlor) [2FA-Datei](https://github.com/Froxlor/Froxlor/blob/main/2fa.php) [Docs](https://docs.froxlor.org/) |
+| Froxlor | PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Offen | [Site](https://froxlor.org/) [Code](https://github.com/Froxlor/Froxlor) [Issue](https://github.com/Froxlor/Froxlor/issues/1281) [2FA-Datei](https://github.com/Froxlor/Froxlor/blob/main/2fa.php) [Docs](https://docs.froxlor.org/) |
 | HestiaCP | Shell/PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://hestiacp.com/) [Code](https://github.com/hestiacp/hestiacp) |
 | ISPConfig | PHP | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://www.ispconfig.org/) [Docs](https://www.ispconfig.org/documentation/) |
 | Portainer CE | TypeScript/Go | Kein Nachweis | Kein Nachweis | Kein Nachweis | Kein Hinweis | [Site](https://www.portainer.io/) [Code](https://github.com/portainer/portainer) [Docs](https://docs.portainer.io/) |
